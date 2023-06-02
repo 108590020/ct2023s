@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="zh-Hant-TW">
 <head>
@@ -6,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- D3, jquery -->
-<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=17N4agHkbW9UmZ9HM-3QpuwgkBGmjyAKLhGHGO4ypH8MvY8loni0CU-p6i8vvhD5wKgPsmR83F5iUiGG_4oLy07t2JTGh-oXt-HhPdjTDt8" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9jaGlhb29vby5naXRodWIuaW8vY3QyMDIzcy9odzAzL2luZGV4Lmh0bWw"/><script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" charset="utf-8"></script>
 
 <!-- Bootstrap CSS -->
@@ -177,6 +178,7 @@
   <div class="row hw12">
     <div class="col-md-12 twenty">
       若該次作業有程式碼，請放在 https://github.com/<span style="color:red;">你的帳號</span>/ct2023s/hw<span style="color:red;">03</span>/src/ 檔案夾。
+      <button class="button btn-sm btn-light"><a href="https://github.com/chiaoooo/ct2023s/tree/main/hw03/src"><H4 style="color:black;">連去 SRC</H4></a></button>
     </div>
   </div>
 
@@ -200,18 +202,18 @@
         <tr>
           <td rowspan="7" id="myTotal"></td>
           <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
-          <td id='m1'>2</td>
-          <td>Simple baseline - 下載 CubismWebSamples</td>
+          <td id='m1'>5</td>
+          <td>Simple baseline - 提供 Sketchup 設計的 png</td>
         </tr>
         <tr>
           <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
-          <td id='m2'>6</td>
-          <td>Medium baseline - 編譯執行 </td>
+          <td id='m2'>3</td>
+          <td>Medium baseline - 在 Github 的 src 放入 skp/stl file </td>
         </tr>
         <tr>
           <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
           <td id='m3'>2</td>
-          <td>Strong baseline - 更換 Cubism 人物模型、發佈網頁 </td>
+          <td>Strong baseline - 用 rhino (grasshopper) 做到參數化設計（水立方）並放上圖片 </td>
         </tr>
       </table>
     </div>
@@ -219,10 +221,12 @@
 
   <!-- ------------------------------------------------>
   <div class="row hw12">
-    <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+    <div class="col-md-6">
+        <img src="src/sketchup.png" width="100%">
+    </div>
+ 
+    <div class="col-md-6">
+        <img src="src/rhino.JPG" width="100%">
     </div>
   </div>
 
